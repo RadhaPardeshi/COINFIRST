@@ -36,7 +36,7 @@ public class ChangePasswordCustomerPOMTest extends BaseClass {
 		String pin1 = "";
 		String[] parts = null;
 		for (String liD : lines1) {
-
+      //
 			if (liD.contains("Your Debit Card No is : ")) 
 			{
 				// Split the line to get the application number
