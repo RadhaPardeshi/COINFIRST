@@ -61,5 +61,6 @@ public class ApplyDebitCardPage {
 	public void enteraccNoTxt(String accountID) {
 		accountNoTxt.sendKeys(accountID);
 	}
+	//Thank you
 
 }
