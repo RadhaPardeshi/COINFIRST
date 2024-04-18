@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ --- Connect to Database --- ]]>
+    </line>
+    <line>
+      <![CDATA[-- open the browser --]]>
+    </line>
+    <line>
+      <![CDATA[--- closing the browser ---]]>
+    </line>
+    <line>
+      <![CDATA[--- closing the data base connection ---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-17T17:24:30 IST" name="Default suite" finished-at="2024-04-17T17:24:50 IST" duration-ms="20138">
+    <groups>
+    </groups>
+    <test started-at="2024-04-17T17:24:30 IST" name="Default test" finished-at="2024-04-17T17:24:50 IST" duration-ms="20138">
+      <class name="POMUsingTestScripts.UserOpeningAccount">
+        <test-method is-config="true" signature="openDBconeection()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:29 IST" name="openDBconeection" finished-at="2024-04-17T17:24:30 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ --- Connect to Database --- ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openDBconeection -->
+        <test-method is-config="true" signature="OpeningBrowser()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:30 IST" name="OpeningBrowser" finished-at="2024-04-17T17:24:34 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- open the browser --]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method signature="mavenm1()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:34 IST" name="mavenm1" finished-at="2024-04-17T17:24:40 IST" duration-ms="5946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenm1 -->
+        <test-method signature="userAccountApprovalStaffPOMTest()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:40 IST" name="userAccountApprovalStaffPOMTest" finished-at="2024-04-17T17:24:50 IST" duration-ms="9331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAccountApprovalStaffPOMTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:50 IST" name="closeBrowser" finished-at="2024-04-17T17:24:50 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--- closing the browser ---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeTheDBConnection()[pri:0, instance:POMUsingTestScripts.UserOpeningAccount@17f9d882]" started-at="2024-04-17T17:24:50 IST" name="closeTheDBConnection" finished-at="2024-04-17T17:24:50 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--- closing the data base connection ---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheDBConnection -->
+      </class> <!-- POMUsingTestScripts.UserOpeningAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
